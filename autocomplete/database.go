@@ -1,4 +1,3 @@
-
 package main
 
 import (
@@ -80,22 +79,27 @@ func SearchMovies(
 ) ([]Movie, error) {
 
 	query := `
-		SELECT TOP (@p1)
-			id,
-			title,
-			release_year,
-			popularity
-		FROM dbo.Movies
-		WHERE title COLLATE Latin1_General_100_CI_AS
-		      LIKE @p2
-		ORDER BY popularity DESC, id ASC
+    SELECT TOP (@p1)
+        id,
+        title,
+        release_year,
+        popularity
+    FROM dbo.Movies
+    WHERE
+        title COLLATE Latin1_General_100_CI_AS LIKE @p2
+        OR
+        title COLLATE Latin1_General_100_CI_AS LIKE @p3
+    ORDER BY popularity DESC, id ASC
 	`
+
+	escapedPrefix := escapeLike(prefix)
 
 	rows, err := db.QueryContext(
 		ctx,
 		query,
 		limit,
-		escapeLike(prefix)+"%",
+		escapedPrefix+"%",      // Title starts with prefix
+		"% "+escapedPrefix+"%", // Word after a space starts with prefix
 	)
 	if err != nil {
 		return nil, fmt.Errorf("search movies: %w", err)

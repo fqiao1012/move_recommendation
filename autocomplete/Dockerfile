@@ -1,13 +1,23 @@
-FROM golang:1.25-alpine
+
+# Stage 1: Build
+FROM golang:1.27.3-alpine AS builder
 
 WORKDIR /app
 
-# COPY simple_svc.go .
+COPY go.mod go.sum ./
+RUN go mod download
 
-VOLUME ["/app"] 
+COPY . .
 
-# RUN go build -o simple-svc simple_svc.go
+RUN CGO_ENABLED=0 GOOS=linux go build -o autocomplete .
+
+# Stage 2: Runtime
+FROM alpine:3.21
+
+WORKDIR /app
+
+COPY --from=builder /app/autocomplete ./autocomplete
 
 EXPOSE 8080
 
-# CMD ["./simple-svc"]
+CMD ["./autocomplete"]

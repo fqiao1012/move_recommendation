@@ -1,3 +1,4 @@
+
 services:
   movie-db:
     image: mcr.microsoft.com/mssql/server:2025-latest
@@ -11,6 +12,36 @@ services:
     volumes:
       - movie-db-data:/var/opt/mssql
       - ./movie_db:/seed:ro
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - >-
+          /opt/mssql-tools18/bin/sqlcmd
+          -S localhost -U sa
+          -P "$$MSSQL_SA_PASSWORD"
+          -C -b -Q "SELECT 1" -o /dev/null
+      interval: 10s
+      timeout: 5s
+      retries: 15
+      start_period: 30s
+
+  autocomplete:
+    build:
+      context: ./autocomplete
+      dockerfile: Dockerfile
+    container_name: autocomplete
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      DB_HOST: movie-db
+      DB_PORT: "1433"
+      DB_NAME: MovieDB
+      DB_USER: sa
+      DB_PASSWORD: ${DB_PASSWORD}
+    depends_on:
+      movie-db:
+        condition: service_healthy
+    restart: unless-stopped
 
 volumes:
   movie-db-data:
