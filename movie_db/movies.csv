@@ -1,0 +1,150 @@
+id,title,release_year,popularity
+1,The Shawshank Redemption,1994,86.1
+2,The Godfather,1972,65.8
+3,The Dark Knight,2008,74.1
+4,The Godfather Part II,1974,72.4
+5,12 Angry Men,1957,89.3
+6,Schindler's List,1993,87.3
+7,The Lord of the Rings: The Return of the King,2003,94.4
+8,Pulp Fiction,1994,67.9
+9,The Lord of the Rings: The Fellowship of the Ring,2001,78.9
+10,"The Good, the Bad and the Ugly",1966,66.0
+11,Forrest Gump,1994,72.2
+12,Fight Club,1999,81.7
+13,Inception,2010,65.9
+14,The Lord of the Rings: The Two Towers,2002,71.6
+15,Star Wars: The Empire Strikes Back,1980,86.4
+16,The Matrix,1999,83.0
+17,Goodfellas,1990,72.3
+18,One Flew Over the Cuckoo's Nest,1975,84.4
+19,Seven Samurai,1954,91.7
+20,Se7en,1995,65.2
+21,Interstellar,2014,91.6
+22,It's a Wonderful Life,1946,88.0
+23,The Silence of the Lambs,1991,76.2
+24,Saving Private Ryan,1998,70.1
+25,City of God,2002,96.6
+26,Life Is Beautiful,1997,76.1
+27,The Green Mile,1999,68.1
+28,Terminator 2: Judgment Day,1991,68.2
+29,Star Wars: A New Hope,1977,93.0
+30,Back to the Future,1985,84.9
+31,Spirited Away,2001,91.6
+32,The Pianist,2002,89.1
+33,Parasite,2019,82.7
+34,Gladiator,2000,97.1
+35,The Lion King,1994,77.5
+36,The Departed,2006,83.2
+37,Whiplash,2014,92.4
+38,The Prestige,2006,85.4
+39,American History X,1998,93.4
+40,The Usual Suspects,1995,84.1
+41,Casablanca,1942,88.3
+42,The Intouchables,2011,66.5
+43,Modern Times,1936,72.5
+44,Rear Window,1954,74.5
+45,Once Upon a Time in the West,1968,67.6
+46,Alien,1979,72.7
+47,Cinema Paradiso,1988,68.3
+48,Apocalypse Now,1979,74.2
+49,Memento,2000,86.0
+50,Raiders of the Lost Ark,1981,77.0
+51,Django Unchained,2012,77.2
+52,WALL-E,2008,71.9
+53,The Lives of Others,2006,73.8
+54,Sunset Boulevard,1950,95.9
+55,Paths of Glory,1957,86.4
+56,The Shining,1980,85.1
+57,The Great Dictator,1940,70.6
+58,Avengers: Endgame,2019,89.1
+59,The Dark Knight Rises,2012,70.4
+60,Spider-Man: Into the Spider-Verse,2018,77.5
+61,Your Name.,2016,97.7
+62,Coco,2017,86.1
+63,Toy Story,1995,83.4
+64,Toy Story 3,2010,87.6
+65,Finding Nemo,2003,92.8
+66,Up,2009,90.6
+67,Inside Out,2015,72.6
+68,Ratatouille,2007,66.1
+69,"Monsters, Inc.",2001,75.4
+70,The Incredibles,2004,73.8
+71,How to Train Your Dragon,2010,72.0
+72,Shrek,2001,96.1
+73,Frozen,2013,93.9
+74,Moana,2016,75.4
+75,Zootopia,2016,86.6
+76,Titanic,1997,78.1
+77,Avatar,2009,95.2
+78,Avatar: The Way of Water,2022,80.1
+79,Jurassic Park,1993,73.7
+80,Jaws,1975,73.1
+81,E.T. the Extra-Terrestrial,1982,83.5
+82,Indiana Jones and the Last Crusade,1989,73.7
+83,Star Wars: Return of the Jedi,1983,84.3
+84,Star Wars: The Force Awakens,2015,94.6
+85,Rogue One: A Star Wars Story,2016,78.2
+86,Star Wars: The Last Jedi,2017,72.2
+87,Star Wars: The Rise of Skywalker,2019,97.9
+88,Star Trek,2009,81.8
+89,Star Trek Into Darkness,2013,68.0
+90,Star Trek Beyond,2016,66.6
+91,Stargate,1994,68.6
+92,The Avengers,2012,85.7
+93,Avengers: Infinity War,2018,91.1
+94,Iron Man,2008,78.9
+95,Captain America: The Winter Soldier,2014,67.1
+96,Captain America: Civil War,2016,77.6
+97,Black Panther,2018,97.9
+98,Guardians of the Galaxy,2014,82.5
+99,Doctor Strange,2016,97.0
+100,Thor: Ragnarok,2017,93.4
+101,Spider-Man: No Way Home,2021,65.4
+102,Oppenheimer,2023,88.8
+103,Barbie,2023,87.5
+104,Dune,2021,82.7
+105,Dune: Part Two,2024,73.8
+106,Everything Everywhere All at Once,2022,86.2
+107,The Batman,2022,68.7
+108,Top Gun: Maverick,2022,79.3
+109,The Super Mario Bros. Movie,2023,80.0
+110,The Grand Budapest Hotel,2014,96.5
+111,La La Land,2016,93.9
+112,The Social Network,2010,73.7
+113,The Wolf of Wall Street,2013,81.5
+114,The Big Short,2015,70.9
+115,The Imitation Game,2014,95.1
+116,The Martian,2015,93.7
+117,Arrival,2016,74.8
+118,Blade Runner,1982,86.1
+119,Blade Runner 2049,2017,85.1
+120,Ex Machina,2014,70.0
+121,Her,2013,90.2
+122,Minority Report,2002,82.8
+123,The Terminator,1984,90.7
+124,The Truman Show,1998,82.5
+125,Eternal Sunshine of the Spotless Mind,2004,65.0
+126,No Country for Old Men,2007,75.7
+127,There Will Be Blood,2007,65.6
+128,The Hateful Eight,2015,95.7
+129,Once Upon a Time in Hollywood,2019,94.0
+130,Kill Bill: Vol. 1,2003,92.4
+131,Kill Bill: Vol. 2,2004,75.1
+132,Inglourious Basterds,2009,66.9
+133,Reservoir Dogs,1992,94.0
+134,The Irishman,2019,96.2
+135,The Revenant,2015,67.8
+136,Mad Max: Fury Road,2015,81.0
+137,The Hunger Games,2012,67.3
+138,The Hunger Games: Catching Fire,2013,90.1
+139,Harry Potter and the Sorcerer's Stone,2001,90.3
+140,Harry Potter and the Chamber of Secrets,2002,69.2
+141,Harry Potter and the Prisoner of Azkaban,2004,80.7
+142,Harry Potter and the Goblet of Fire,2005,83.1
+143,Harry Potter and the Order of the Phoenix,2007,73.7
+144,Harry Potter and the Half-Blood Prince,2009,93.8
+145,Harry Potter and the Deathly Hallows: Part 1,2010,79.0
+146,Harry Potter and the Deathly Hallows: Part 2,2011,72.0
+147,The Hobbit: An Unexpected Journey,2012,82.8
+148,The Hobbit: The Desolation of Smaug,2013,89.1
+149,The Hobbit: The Battle of the Five Armies,2014,71.6
